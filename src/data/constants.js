@@ -138,7 +138,7 @@ export const education = [
     date: "Nov 2020 - apr 2023",
     grade: "7.96 CGPA",
     desc: "I had completed my Master of Computer Applications at Koneru Lakshmaiah University, vijayawada. I had secured an overall CGPA of 86.2",
-    degree: "Master of Computer Applicationszzz, Electrical and Electronics Engineering",
+    degree: "",
   },
   {
     id: 1,
