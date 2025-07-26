@@ -88,7 +88,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Durga Prasad Koppisetti</Logo>
+        <Logo>Garapati Sharmila Chowdary</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -103,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Durga Prasad Koppisetti. All rights reserved.
+          &copy; 2025 Garapati Sharmila Chowdary. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

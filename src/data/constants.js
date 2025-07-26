@@ -1,18 +1,17 @@
 export const Bio = {
-  name: "Durga Prasad Koppisetti",
+  name: "Garapati Sharmila Chowdary",
   roles: [
-    "Senior Software Engineer",
-    "Full Stack Developer",
+    "Web Designer",
+    "Wordpress Developer",
     "Front End Developer",
-    "Angular Developer",
     "Programmer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/Prasad0526/prasad-portfolio",
+  github: "https://github.com/Sharmila-g16/sharmila-portfolio.git",
   resume:
   "https://drive.google.com/file/d/1Fx2W90poxAU2XaTkLyxkHjwK19GWvCpy/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/durga-prasad-koppisetti-586465228/",
+  linkedin: "https://www.linkedin.com/in/sharmila-garapati-56604a238/",
   // insta: "https://www.instagram.com/seshu_______/",
   // facebook: "",
 };
@@ -21,11 +20,6 @@ export const skills = [
   {
     title: "Frontend",
     skills: [
-      {
-        name: "Angular",
-        image:
-          "https://img.icons8.com/color/48/angularjs.png",
-      },
       {
         name: "React Js",
         image:
@@ -76,11 +70,6 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "Laravel",
-        image:
-          "https://img.icons8.com/stickers/100/laravel.png",
-      },
-      {
         name: "PHP",
         image:
           "https://img.icons8.com/stickers/100/laravel.pnghttps://img.icons8.com/color/48/php.png",
@@ -89,16 +78,6 @@ export const skills = [
         name: "Java",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name: "Spring",
-        image:
-          "https://img.icons8.com/?size=512&id=90519&format=png",
-      },
-      {
-        name: "SpringBoot",
-        image:
-          "https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png",
       }
     ],
   },
