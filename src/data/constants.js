@@ -7,14 +7,20 @@ export const Bio = {
     "Manual Testing",
     "Programmer",
   ],
+  // description: "UI/UX Designer & Frontend Developer with 2.5 years of experience delivering responsive, user-friendly web applications. Skilled in Figma prototyping, usability testing, and frontend development (HTML, CSS, Bootstrap, WordPress). Adept at translating ideas into engaging digital experiences and improving usability by up to 30% through design enhancements. Passionate about creating seamless, accessible, and scalable solutions while collaborating across teams to align design with business goals".  
+  // github: "https://github.com/Sharmila-g16/sharmila-portfolio.git",
+  // resume:
+  // "https://drive.google.com/file/d/1KJxXXPJq8nVvfps_BZ4QsDYEYdjDWu0w/view?usp=sharing",
+  // linkedin: "https://www.linkedin.com/in/sharmila-garapati-56604a238/",
+  // insta: "https://www.instagram.com/s__h_a_r_m_i_______/",
+  // facebook: "",
+
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "UI/UX Designer & Frontend Developer with 2.5 years of experience delivering responsive, user-friendly web applications. Skilled in Figma prototyping, usability testing, and frontend development (HTML, CSS, Bootstrap, WordPress). Adept at translating ideas into engaging digital experiences and improving usability by up to 30% through design enhancements. Passionate about creating seamless, accessible, and scalable solutions while collaborating across teams to align design with business goals.",
   github: "https://github.com/Sharmila-g16/sharmila-portfolio.git",
   resume:
   "https://drive.google.com/file/d/1KJxXXPJq8nVvfps_BZ4QsDYEYdjDWu0w/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sharmila-garapati-56604a238/",
-  // insta: "https://www.instagram.com/seshu_______/",
-  // facebook: "",
 };
 
 export const skills = [
@@ -59,11 +65,6 @@ export const skills = [
         name: "SQL",
         image:
           "https://w7.pngwing.com/pngs/28/601/png-transparent-sql-logo-illustration-microsoft-azure-sql-database-microsoft-sql-server-database-blue-text-logo-thumbnail.png",
-      },
-      {
-        name: "MongoDB",
-        image:
-          "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png",
       }
     ],
   },
@@ -76,9 +77,9 @@ export const skills = [
           "https://img.icons8.com/stickers/100/laravel.pnghttps://img.icons8.com/color/48/php.png",
       },
       {
-        name: "Java",
+        name: "Wordpress",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-plain.svg",
       }
     ],
   },
@@ -113,18 +114,20 @@ export const experiences = [
   {
     id: 0,
     img: "https://tabletoptech.in/wp-content/uploads/2022/12/table-1024x323.png",
-    role: "Senior Software Engineer",
+    role: "Software Engineer",
     company: "TableTop Technologies",
-    date: "Feb 2024 - Present",
-    desc: "Led the development of complex web applications using Angular and TypeScript, ensuring high performance and scalability. Designed and implemented RESTful APIs to integrate front-end applications with backend services. Mentored junior developers and conducted code reviews to maintain code quality and best practices. Utilized RxJS for reactive programming and state management in Angular applications. Worked on AWS for deploying and managing cloud-based applications. Implemented CI/CD pipelines using Jenkins and GitHub Actions for automated builds and deployments.",
+    date: "June 2024 - Present",
+    // desc: "<b>WordPress & Front-End Website Design</b> <br>Designed and developed responsive websites using WordPress, Elementor, and custom themes.<br>Built user-friendly interfaces with HTML, CSS, JavaScript, and modern UI libraries.<br>Customized plugins and optimized site performance for speed and SEO.<b>Manual & Automation Testing</b><br>Performed manual testing to validate UI/UX, functionality, and cross-browser compatibility.<br>Implemented automation test scripts using tools like Selenium / Cypress / Playwright (whichever applies).<br>Created detailed test cases, tracked defects, and ensured high-quality releases.",
+    desc: "Experienced in WordPress and front-end website design, creating responsive sites with Elementor, custom themes, and modern UI libraries, while also skilled in manual testing for UI/UX and functionality, and automation testing using tools like Selenium, Cypress, or Playwright to ensure high-quality releases.",
+
     skills: [
       "HTML",
       "CSS",
-      "Angular",
+      "Bootstrap",
+      "wordpress",
       "PHP",
-      "Laravel",
       "MySQL",
-      "TypeScript","RxJS","jQuery"
+      "Javascript","jQuery"
     ],
     doc: "",
   }
@@ -138,25 +141,34 @@ export const education = [
     date: "Nov 2020 - apr 2023",
     grade: "7.96 CGPA",
     desc: "I had completed my Master of Computer Applications at Koneru Lakshmaiah University, vijayawada. I had secured an overall CGPA of 86.2",
-    degree: "",
+    degree: "Master of Computer Applications",
   },
   {
     id: 1,
     img: "https://play-lh.googleusercontent.com/ltjak6wyekUfzFGPi7hs5AHyApkJbHXylN-Woc7zBZmq9pfZcRzPGKtic_HMIZZKZdE",
-    school: "Smt.B.Seetha Polytechnic , Bhimavaram",
-    date: "June 2017 - Apr 2020",
-    grade: "73.8%",
-    desc: "I completed my Diploma at Smt.B.Seetha Polytechnic, Bhimavaram, where I studied Electrical and Electronics Engineering.",
-    degree: "Diploma, Electrical and Electronics Engineering",
+    school: "Sasi Degree College , Velivennu",
+    date: "June 2018 - Aug 2021",
+    grade: "75.0",
+    desc: "I completed my Bachelor's degree in Computer Science at Sasi Degree College, Velivennu.",
+    degree: "Bachelor of Computer Science",
   },
   {
     id: 2,
     img: "https://img.freepik.com/free-vector/gradient-high-school-logo-design_23-2149626932.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1726185600&semt=ais_hybrid",
+    school: "Sri Chaitanya Junior College, Vijayawada",
+    date: "June 2016 - Apr 2018",
+    grade: "7.84 CGPA",
+    desc: "I completed my Intermediate (MPC stream) at Sri Chaitanya Junior College, Vijayawada, under the AP State Board, from June 2016 to April 2018, securing a CGPA of 7.84.",
+    degree: "Intermediate",
+  },
+  {
+    id: 3,
+    img: "https://img.freepik.com/free-vector/gradient-high-school-logo-design_23-2149626932.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1726185600&semt=ais_hybrid",
     school: "S.M.B.T.R.Z.P.High School, Deva",
-    date: "June 2016 - Apr 2017",
-    grade: "8.3 CGPA",
+    date: "June 2016 - Apr 2018",
+    grade: "7.84 CGPA",
     desc: "I completed my class 10 education at S.M.B.T.R.Z.P.High School, Deva, where I SSC.",
-    degree: "SSC(X)",
+    degree: "SSC",
   },
 ];
 
